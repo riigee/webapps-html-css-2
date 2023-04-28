@@ -1,0 +1,27 @@
+pre {
+    background-color: rgb(221, 221, 221);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 6px rgb(180, 178, 178);
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+pre, code{
+    font-size: 10.5pt;
+    font-family: 'Iosevka Term', monospace;
+    color: rgb(107, 62, 62);
+}
+h2 code{
+    font-size: 16pt;
+}
+p a {
+    color: green;
+}
+article p a{
+    color: green;
+}
+article:first-child p a {
+    color: orange;
+}
